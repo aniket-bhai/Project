@@ -1,52 +1,86 @@
-<style>
-    /* code for Subscribe button */
-    .subscribe-button{
-        background-color: red;
-        border: none;
-        height: 40px;
-        width: 100px;
-        color: white;
-        border-radius: 2px;
-        cursor: pointer;
-        transition:opacity 1s ;
-    }
-    /* Hovering code for subscribe button */
-    .subscribe-button:hover{
-        /* background-color: aqua; */
-        opacity: .5;
-    }
-    /* Activer code for subscribe button */
-    .subscribe-button:active{
-        /* background-color: blue; */
-        opacity: .5;
-    }
-    /* code for join button */
-    .join-button{
-        background-color: white;
-        color: blue;
-        height: 30px;
-        width: auto;
-        border-radius: 2px;
-        border-color: blue;
-        cursor: pointer;
-        border-style: solid;
-        border-width: 1px;
-        margin-left: 10px;
-    }
-    /* code for tweet button */
-    .tweet-button{
-        background-color: blue;
-        border-radius: 20px;
-        height: 30px;
-        width: 80px;
-        border: none;
-        color: white;
-        margin-left: 10px;
-        font-weight: bold;
-        font-size: 15px;
-        cursor: pointer;
-    }
-</style>
-<button class="subscribe-button">SUBSCRIBE</button>
-<button class="join-button">JOIN</button>
-<button class="tweet-button">Tweet</button>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket</title>
+</head>
+
+<body>
+    <style>
+        /* code for Subscribe button */
+        .subscribe-button {
+            background-color: red;
+            border: none;
+            /* height: 40px;
+            width: 100px; */
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: white;
+            border-radius: 2px;
+            cursor: pointer;
+            transition: opacity 1s;
+        }
+
+        /* Hovering code for subscribe button */
+        .subscribe-button:hover {
+            /* background-color: aqua; */
+            opacity: .5;
+        }
+
+        /* Activer code for subscribe button */
+        .subscribe-button:active {
+            /* background-color: blue; */
+            opacity: .5;
+        }
+
+        /* code for join button */
+        .join-button {
+            background-color: white;
+            color: blue;
+            /* height: 30px;
+            width: auto; */
+            border-radius: 2px;
+            border-color: blue;
+            cursor: pointer;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-style: solid;
+            border-width: 1px;
+            margin-left: 10px;
+        }
+
+        /* code for tweet button */
+        .tweet-button {
+            background-color: blue;
+            border-radius: 20px;
+            height: 30px;
+            width: 80px;
+            border: none;
+            color: white;
+            margin-left: 10px;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+            vertical-align: top;
+        }
+
+        .tweet-button:hover {
+            box-shadow: 5px 5px 20px black;
+        }
+    </style>
+    <button class="subscribe-button">SUBSCRIBE TO ME</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">Tweet</button>
+    <script>
+        let items=12;
+        console.log(items);
+    </script>
+</body>
+
+</html>
